@@ -24,16 +24,14 @@ This genoset is to be used with DNA-JSON. See the [dna2json](https://github.com/
 
 ## Usage
 
-This module simply exports a GQL query function. Check out the [GQL page for more information](https://github.com/genomejs/gql)
-
-
 Example:
 
 ```javascript
-var isImmuneToNorovirus = require('genoset-norovirus');
+var norovirus = require('genoset-norovirus');
 var dna = require('./my-dna.json');
 
-var canIEatBadSushi = isImmuneToNorovirus(dna);
+var data = norovirus(dna);
+console.log(data.immune); // true or false
 ```
 
 ## LICENSE
