@@ -1,7 +1,7 @@
 {
   "name": "genoset-norovirus",
   "description": "Determines if a genome is immune to norovirus (rs601338)",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "http://github.com/genomejs/genoset-norovirus",
   "repository": "git://github.com/genomejs/genoset-norovirus.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
